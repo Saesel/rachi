@@ -4,7 +4,7 @@
 </p>
 
 ## Sobre   
-Projeto simples de criação de uma landing page de serviços de assinatura. Código feito do absoluto zero baseado no design do [Iuri Silva](https://github.com/iuricode/iuricode) com pequenas alterações.
+Projeto simples de criação de uma landing page de serviços de assinatura. Código feito do absoluto zero baseado no design do [Iuri Silva](https://github.com/iuricode/iuricode) com pequenas alterações. Também me serviu para poder continuar os estudos em Sass/Scss.
 
 ---
 
