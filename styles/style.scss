@@ -1,0 +1,371 @@
+$blue: #0f9afe;
+
+$white: #ffffff;
+$white-400: #eff8ff;
+
+$gray: #6e7275;
+$gray-light: #dbdbdb;
+$gray-200: #293145;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  color: $gray-200;
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+
+  section:not(.hero, .contact) {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  button,
+  input[type="submit"] {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+    cursor: pointer;
+    background-color: $blue;
+    color: $white;
+
+    &:hover {
+      background-color: #27a4fe;
+    }
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: "Sora";
+  }
+}
+
+/* Header */
+
+.header {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu {
+    display: flex;
+    gap: 4rem;
+
+    a {
+      color: $gray;
+
+      &:hover {
+        color: $gray-200;
+      }
+    }
+  }
+}
+
+/* Hero */
+
+.hero {
+  background-color: $white-400;
+
+  .hero--container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .hero--container__left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        font-family: "Sora";
+      }
+    }
+  }
+}
+
+/* How It Works */
+
+.how-it-works {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Sora";
+  }
+
+  .how-it-works--items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    li {
+      max-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        width: 48px;
+      }
+
+      h3 {
+        margin: 1.25rem 0 0.75rem 0;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 16px;
+        color: $gray;
+      }
+    }
+  }
+}
+
+/* Download */
+
+.download {
+  padding: 2rem 0;
+  background-color: $white-400;
+
+  .download--container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .download--container__left {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 1.25rem;
+
+      .download--buttons {
+        display: flex;
+        gap: 1rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        color: $gray;
+      }
+    }
+  }
+}
+
+.plans {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  p {
+    color: $gray;
+    text-align: center;
+  }
+
+  .plans--container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    li {
+      height: 470px;
+      padding: 0rem 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      border-radius: 0.25rem;
+      text-align: center;
+      box-shadow: 0 1px 4px rgb(0, 0, 0, 0.1);
+      background-color: $white-400;
+
+      button {
+        height: 45px;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      &:nth-child(2) {
+        background-color: $gray-200;
+
+        * {
+          color: $white;
+        }
+      }
+
+      .price {
+        font-size: 3rem;
+        font-weight: 500;
+        color: $gray-200;
+
+        sup {
+          font-size: 1rem;
+        }
+
+        span {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .silver {
+      gap: 0;
+
+      h3 {
+        font-size: 2.25rem;
+      }
+
+      .favorite {
+        width: 160px;
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        background-color: $blue;
+      }
+
+      p {
+        margin: 1rem 0;
+      }
+
+      button {
+        height: 45px;
+      }
+
+      .price {
+        color: $white;
+      }
+    }
+  }
+}
+
+/* Contact */
+
+.contact {
+  height: 380px;
+  background: linear-gradient(rgba(41, 49, 69, 0.7), rgba(41, 49, 69, 0.7)),
+    url(../assets/img/contact.png);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  * {
+    color: $white;
+  }
+
+  p {
+    color: $gray-light;
+  }
+
+  .form {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    input[type="email"] {
+      width: 250px;
+      padding: 0.25rem 0;
+      background: none;
+      border: none;
+      border-bottom: 2px solid $white;
+      outline: none;
+      transition: 200ms;
+
+      &::placeholder {
+        color: $white;
+      }
+
+      &:focus {
+        border-bottom-color: $blue;
+      }
+    }
+
+    input[type="submit"] {
+      width: 120px;
+      height: 40px;
+    }
+  }
+}
+
+/* Footer */
+
+.footer {
+  padding: 1.25rem;
+  text-align: center;
+  font-family: "Sora";
+}
