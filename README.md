@@ -4,7 +4,7 @@
 </p>
 
 ## Sobre   
-Projeto simples de criação de uma landing page de serviços de assinatura. Código feito do absoluto zero baseado no design do [Iuri Silva](https://github.com/iuricode/iuricode) com pequenas alterações. Também me serviu para poder continuar os estudos em Sass/Scss.
+Projeto simples de criação de uma landing page de serviços de assinatura. Código feito do **absoluto zero** baseado no design do [Iuri Silva](https://github.com/iuricode/iuricode) com algumas **pequenas alterações**. Também me serviu para poder continuar os estudos em **SASS**.
 
 ---
 
@@ -23,7 +23,7 @@ Você pode acessar o projeto **clicando na imagem acima**.
 
 ## Layout
 Você pode conferir o site com o design original no link abaixo:
-- **[Site de inspiração](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=41733%3A754)**
+- **[Design Rachi](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=41733%3A754)**
 
 ---
 
